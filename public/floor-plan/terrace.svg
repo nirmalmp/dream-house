@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -6 55 53"><title>Roof terrace plan</title><style>text{font-family:Arial,sans-serif;fill:#28433c;paint-order:stroke fill;stroke:#fcfbf5;stroke-width:.12;stroke-linejoin:round}.wall{fill:none;stroke:#304b42;stroke-width:.18}.thin{fill:none;stroke:#788e81;stroke-width:.055}</style><defs><marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#637671" /></marker></defs>
+<rect x="-4" y="-6" width="55" height="53" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<rect x="0" y="0" width="47" height="44" fill="#faf8ef" stroke="#304b42" stroke-width="0.18" />
+<rect x="0" y="14" width="14" height="30" fill="#dfad9c" stroke="#b78274" stroke-width="0.12" />
+<rect x="33" y="14" width="14" height="30" fill="#dfad9c" stroke="#b78274" stroke-width="0.12" />
+<rect x="14" y="0" width="19" height="14" fill="#dfad9c" stroke="#b78274" stroke-width="0.12" />
+<rect x="0" y="0" width="14" height="14" fill="#e5ecd8" stroke="#304b42" stroke-width="0.18" />
+<path d="M0.35 0.35L13.65 0.35" class="thin" />
+<path d="M0.35 0.35L0.35 13.65" class="thin" />
+<path d="M13.65 0.35L13.65 13.65" class="thin" />
+<path d="M0.35 13.65L13.65 13.65" class="thin" />
+<rect x="33" y="0" width="14" height="14" fill="#e5ecd8" stroke="#304b42" stroke-width="0.18" />
+<path d="M33.35 0.35L46.65 0.35" class="thin" />
+<path d="M33.35 0.35L33.35 13.65" class="thin" />
+<path d="M46.65 0.35L46.65 13.65" class="thin" />
+<path d="M33.35 13.65L46.65 13.65" class="thin" />
+<rect x="14" y="38" width="19" height="6" fill="#dfad9c" stroke="#b78274" stroke-width="0.12" />
+<rect x="14" y="14" width="19" height="24" fill="#ece4d3" stroke="#304b42" stroke-width="0.18" />
+<path d="M14.35 14.35L14.35 37.65" class="thin" />
+<path d="M32.65 14.35L32.65 37.65" class="thin" />
+<path d="M14.35 14.35L32.65 14.35" class="thin" />
+<path d="M14.35 37.65L32.65 37.65" class="thin" />
+<rect x="20.5" y="24" width="7" height="6" fill="#dcecef" stroke="#668c90" stroke-width="0.12" />
+<path d="M14 28H17V35H20V38H14Z" fill="#ebece3" stroke="#304b42" stroke-width=".18" />
+<path d="M14.2 28.3L16.8 28.3" class="thin" />
+<path d="M14.2 29.150000000000002L16.8 29.150000000000002" class="thin" />
+<path d="M14.2 30.0L16.8 30.0" class="thin" />
+<path d="M14.2 30.85L16.8 30.85" class="thin" />
+<path d="M14.2 31.7L16.8 31.7" class="thin" />
+<path d="M14.2 32.55L16.8 32.55" class="thin" />
+<path d="M14.2 33.4L16.8 33.4" class="thin" />
+<path d="M14.2 34.25L16.8 34.25" class="thin" />
+<path d="M17.2 35.2L17.2 37.8" class="thin" />
+<path d="M18.05 35.2L18.05 37.8" class="thin" />
+<path d="M18.9 35.2L18.9 37.8" class="thin" />
+<path d="M14 35L17 35" class="thin" />
+<path d="M17 35L17 38" class="thin" />
+<path d="M15.5 37V29.2" class="thin" marker-end="url(#a)" />
+<path d="M29 31l1.2 1.2L29 33.4l-1.2-1.2Z" fill="#e7b36d" stroke="#788e81" stroke-width=".06" /><path d="M27.8 32.2h-2.2" class="thin" stroke-dasharray=".14 .1" />
+<rect x="28" y="35" width="3.4" height="1.4" fill="#e3e1d5" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M0 -0.4L0 -3" class="thin" />
+<path d="M14 -0.4L14 -3" class="thin" />
+<path d="M33 -0.4L33 -3" class="thin" />
+<path d="M47 -0.4L47 -3" class="thin" />
+<path d="M0 -3L47 -3" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M-2 0L-2 38" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M49 38L49 44" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<g transform=""><text x="7.0" y="29.0" text-anchor="middle" font-size="0.4">LEFT ROOF</text>
+</g><g transform=""><text x="7.0" y="29.68" text-anchor="middle" font-size="0.4">TERRACOTTA TILES</text>
+</g><g transform=""><text x="40.0" y="29.0" text-anchor="middle" font-size="0.4">RIGHT ROOF</text>
+</g><g transform=""><text x="40.0" y="29.68" text-anchor="middle" font-size="0.4">TERRACOTTA TILES</text>
+</g><g transform=""><text x="23.5" y="7.0" text-anchor="middle" font-size="0.4">CENTER ROOF</text>
+</g><g transform=""><text x="23.5" y="7.68" text-anchor="middle" font-size="0.4">TERRACOTTA TILES</text>
+</g><g transform=""><text x="7" y="6.2" text-anchor="middle" font-size="0.4">FIRST-FLOOR TERRACE</text>
+</g><g transform=""><text x="7" y="6.88" text-anchor="middle" font-size="0.4">14′ × 14′ BELOW</text>
+</g><g transform=""><text x="40" y="6.2" text-anchor="middle" font-size="0.4">FIRST-FLOOR TERRACE</text>
+</g><g transform=""><text x="40" y="6.88" text-anchor="middle" font-size="0.4">14′ × 14′ BELOW</text>
+</g><g transform=""><text x="23.5" y="41.0" text-anchor="middle" font-size="0.38">PORCH ROOF</text>
+</g><g transform=""><text x="23.5" y="41.68" text-anchor="middle" font-size="0.38">TERRACOTTA TILES</text>
+</g><g transform=""><text x="25.2" y="19.6" text-anchor="middle" font-size="0.52">OPEN KITE-FLYING TERRACE</text>
+</g><g transform=""><text x="25.2" y="20.28" text-anchor="middle" font-size="0.52">Approx. 354 sq ft clear usable area</text>
+</g><g transform=""><text x="25.2" y="21.3" text-anchor="middle" font-size="0.38">Non-slip tile · 3′ 6″ parapet</text>
+</g><g transform=""><text x="24" y="26.2" text-anchor="middle" font-size="0.44">OPEN TO BELOW</text>
+</g><g transform=""><text x="24" y="26.88" text-anchor="middle" font-size="0.44">TULSI · 7′ × 6′</text>
+</g><g transform=""><text x="18.2" y="32.8" text-anchor="middle" font-size="0.32">ROOF STAIR</text>
+</g><g transform=""><text x="18.2" y="33.48" text-anchor="middle" font-size="0.32">6′ × 10′</text>
+</g><g transform=""><text x="29.7" y="36.9" text-anchor="middle" font-size="0.3">SEATING</text>
+</g><g transform=""><text x="23.5" y="47.0" text-anchor="middle" font-size="0.52">ROOF FLOOR · TILED ROOFS EXTEND TO FRONT PORCH</text>
+</g><g transform=""><rect x="21.7198" y="-3.38" width="3.5604" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" x="23.5" y="-3" dominant-baseline="middle" text-anchor="middle" font-size=".52">47′ OVERALL</text>
+</g><g transform="translate(-2 19.0) rotate(-90)"><rect x="-2.0766" y="-0.38" width="4.1532" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" dominant-baseline="middle" text-anchor="middle" font-size=".52">38′ MAIN BODY</text>
+</g><g transform="translate(49 41.0) rotate(-90)"><rect x="-3.5585999999999998" y="-0.38" width="7.1171999999999995" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" dominant-baseline="middle" text-anchor="middle" font-size=".52">6′ FRONT ROOF EXTENSION</text>
+</g></svg>

@@ -1,0 +1,452 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -5 55 53" role="img" aria-labelledby="title"><title id="title">Residence floor plan, nominal dimensions in feet</title><defs><marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#637671" /></marker></defs><style>text{font-family:Arial,sans-serif;fill:#28433c;paint-order:stroke fill;stroke:#fcfbf5;stroke-width:.12;stroke-linejoin:round}.wall{fill:none;stroke:#304b42;stroke-width:.18}.thin{fill:none;stroke:#788e81;stroke-width:.055}</style><rect x="-4" y="-5" width="55" height="53" fill="#fcfbf5" />
+<rect x="0" y="0" width="14" height="19" fill="#f7f1e6" stroke="#304b42" stroke-width="0.18" />
+<rect x="0" y="19" width="14" height="19" fill="#f6f1e7" stroke="#304b42" stroke-width="0.18" />
+<rect x="14" y="0" width="19" height="38" fill="#faf8ef" stroke="#304b42" stroke-width="0.18" />
+<rect x="33" y="0" width="14" height="22" fill="#f7f1e6" stroke="#304b42" stroke-width="0.18" />
+<rect x="33" y="22" width="14" height="16" fill="#f6f1e7" stroke="#304b42" stroke-width="0.18" />
+<rect x="14" y="38" width="19" height="6" fill="#e9e5d7" stroke="#304b42" stroke-width="0.18" />
+<rect x="0" y="0" width="8" height="8" fill="#e7efea" stroke="#304b42" stroke-width="0.18" />
+<path d="M4 0L4 8" class="wall" />
+<path d="M0 4L4 4" class="wall" />
+<g transform="rotate(-90 1.95 1.3)">
+<rect x="1.3499999999999999" y="0.45" width="1.2" height="0.4" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<ellipse cx="1.95" cy="1.45" rx=".6" ry=".7" fill="white" stroke="#7b8d80" stroke-width=".06" />
+</g>
+<g transform="rotate(180 2 5.95)">
+<path d="M2.0 4.6499999999999995L2.0 5.1499999999999995" class="thin" />
+<ellipse cx="2.0" cy="5.22" rx=".55" ry=".18" fill="#dbe7df" stroke="#788e81" stroke-width=".065" />
+<path d="M1.6 5.52l-0.24 .8" class="thin" stroke-dasharray=".12 .12" />
+<path d="M2.0 5.52l0.0 .8" class="thin" stroke-dasharray=".12 .12" />
+<path d="M2.4 5.52l0.24 .8" class="thin" stroke-dasharray=".12 .12" />
+<circle cx="2.0" cy="6.6499999999999995" r=".17" class="thin" />
+</g>
+<rect x="5.2" y="0.45" width="1.6" height="1" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="5.4" y="0.6" width="1.2" height="0.6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M6.0 0.45L6.0 0.8" class="thin" />
+<rect x="3.85" y="2.1" width="0.3" height="1.8" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M4 2.1L2.2 2.1" class="thin" />
+<path d="M4 3.9000000000000004A1.8 1.8 0 0 1 2.2 2.1" class="thin" />
+<rect x="3.85" y="4.1" width="0.3" height="1.8" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M4 5.9L2.2 5.9" class="thin" />
+<path d="M4 4.1A1.8 1.8 0 0 0 2.2 5.9" class="thin" />
+<rect x="8" y="0" width="6" height="8" fill="#edf0e2" stroke="#304b42" stroke-width="0.18" />
+<rect x="8.3" y="0.35" width="1.3" height="4.6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M8.4 0.5L9.5 0.5" class="thin" />
+<path d="M8.4 0.8L9.5 0.8" class="thin" />
+<path d="M8.4 1.1L9.5 1.1" class="thin" />
+<path d="M8.4 1.4L9.5 1.4" class="thin" />
+<path d="M8.4 1.7L9.5 1.7" class="thin" />
+<path d="M8.4 2.0L9.5 2.0" class="thin" />
+<path d="M8.4 2.3L9.5 2.3" class="thin" />
+<path d="M8.4 2.6L9.5 2.6" class="thin" />
+<path d="M8.4 2.9L9.5 2.9" class="thin" />
+<path d="M8.4 3.1999999999999997L9.5 3.1999999999999997" class="thin" />
+<path d="M8.4 3.5L9.5 3.5" class="thin" />
+<path d="M8.4 3.8L9.5 3.8" class="thin" />
+<path d="M8.4 4.1L9.5 4.1" class="thin" />
+<path d="M8.4 4.4L9.5 4.4" class="thin" />
+<rect x="12.4" y="0.35" width="1.3" height="5" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M12.5 0.5L13.6 0.5" class="thin" />
+<path d="M12.5 0.8L13.6 0.8" class="thin" />
+<path d="M12.5 1.1L13.6 1.1" class="thin" />
+<path d="M12.5 1.4L13.6 1.4" class="thin" />
+<path d="M12.5 1.7L13.6 1.7" class="thin" />
+<path d="M12.5 2.0L13.6 2.0" class="thin" />
+<path d="M12.5 2.3L13.6 2.3" class="thin" />
+<path d="M12.5 2.6L13.6 2.6" class="thin" />
+<path d="M12.5 2.9L13.6 2.9" class="thin" />
+<path d="M12.5 3.1999999999999997L13.6 3.1999999999999997" class="thin" />
+<path d="M12.5 3.5L13.6 3.5" class="thin" />
+<path d="M12.5 3.8L13.6 3.8" class="thin" />
+<path d="M12.5 4.1L13.6 4.1" class="thin" />
+<path d="M12.5 4.4L13.6 4.4" class="thin" />
+<path d="M12.5 4.7L13.6 4.7" class="thin" />
+<rect x="5.35" y="7.85" width="2.4" height="0.3" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M7.75 8L7.75 5.6" class="thin" />
+<path d="M5.35 8A2.4 2.4 0 0 1 7.75 5.6" class="thin" />
+<path d="M7.75 8L8 8" class="wall" />
+<path d="M5.35 7.86L5.35 8.14" class="wall" />
+<path d="M7.75 7.86L7.75 8.14" class="wall" />
+<rect x="8.2" y="7.85" width="2.4" height="0.3" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M8.2 8L8.2 5.6" class="thin" />
+<path d="M10.6 8A2.4 2.4 0 0 0 8.2 5.6" class="thin" />
+<rect x="1" y="11" width="6.5" height="5" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="1.15" y="11.25" width="1.05" height="2.1" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="1.15" y="13.65" width="1.05" height="2.1" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M2.45 11L2.45 16" class="thin" />
+<rect x="1" y="9.9" width="1" height="1" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="1" y="16.1" width="1" height="1" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="12.2" y="8.25" width="1.55" height="2.5" fill="#ece4d3" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M12.975 8.25L12.975 10.75" class="thin" />
+<rect x="13.85" y="16" width="0.3" height="2.5" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M14 18.5L11.5 18.5" class="thin" />
+<path d="M14 16A2.5 2.5 0 0 0 11.5 18.5" class="thin" />
+<rect x="33" y="0" width="6" height="8" fill="#edf0e2" stroke="#304b42" stroke-width="0.18" />
+<rect x="33.3" y="0.35" width="1.3" height="5" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M33.4 0.5L34.5 0.5" class="thin" />
+<path d="M33.4 0.8L34.5 0.8" class="thin" />
+<path d="M33.4 1.1L34.5 1.1" class="thin" />
+<path d="M33.4 1.4L34.5 1.4" class="thin" />
+<path d="M33.4 1.7L34.5 1.7" class="thin" />
+<path d="M33.4 2.0L34.5 2.0" class="thin" />
+<path d="M33.4 2.3L34.5 2.3" class="thin" />
+<path d="M33.4 2.6L34.5 2.6" class="thin" />
+<path d="M33.4 2.9L34.5 2.9" class="thin" />
+<path d="M33.4 3.1999999999999997L34.5 3.1999999999999997" class="thin" />
+<path d="M33.4 3.5L34.5 3.5" class="thin" />
+<path d="M33.4 3.8L34.5 3.8" class="thin" />
+<path d="M33.4 4.1L34.5 4.1" class="thin" />
+<path d="M33.4 4.4L34.5 4.4" class="thin" />
+<path d="M33.4 4.7L34.5 4.7" class="thin" />
+<rect x="37.4" y="0.35" width="1.3" height="4.6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M37.5 0.5L38.6 0.5" class="thin" />
+<path d="M37.5 0.8L38.6 0.8" class="thin" />
+<path d="M37.5 1.1L38.6 1.1" class="thin" />
+<path d="M37.5 1.4L38.6 1.4" class="thin" />
+<path d="M37.5 1.7L38.6 1.7" class="thin" />
+<path d="M37.5 2.0L38.6 2.0" class="thin" />
+<path d="M37.5 2.3L38.6 2.3" class="thin" />
+<path d="M37.5 2.6L38.6 2.6" class="thin" />
+<path d="M37.5 2.9L38.6 2.9" class="thin" />
+<path d="M37.5 3.1999999999999997L38.6 3.1999999999999997" class="thin" />
+<path d="M37.5 3.5L38.6 3.5" class="thin" />
+<path d="M37.5 3.8L38.6 3.8" class="thin" />
+<path d="M37.5 4.1L38.6 4.1" class="thin" />
+<path d="M37.5 4.4L38.6 4.4" class="thin" />
+<rect x="39" y="0" width="8" height="8" fill="#e7efea" stroke="#304b42" stroke-width="0.18" />
+<path d="M43 0L43 8" class="wall" />
+<path d="M43 4L47 4" class="wall" />
+<g transform="rotate(90 44.95 1.3)">
+<rect x="44.35" y="0.45" width="1.2" height="0.4" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<ellipse cx="44.95" cy="1.45" rx=".6" ry=".7" fill="white" stroke="#7b8d80" stroke-width=".06" />
+</g>
+<g transform="rotate(180 45 5.95)">
+<path d="M45.0 4.6499999999999995L45.0 5.1499999999999995" class="thin" />
+<ellipse cx="45.0" cy="5.22" rx=".55" ry=".18" fill="#dbe7df" stroke="#788e81" stroke-width=".065" />
+<path d="M44.6 5.52l-0.24 .8" class="thin" stroke-dasharray=".12 .12" />
+<path d="M45.0 5.52l0.0 .8" class="thin" stroke-dasharray=".12 .12" />
+<path d="M45.4 5.52l0.24 .8" class="thin" stroke-dasharray=".12 .12" />
+<circle cx="45.0" cy="6.6499999999999995" r=".17" class="thin" />
+</g>
+<rect x="40.2" y="0.45" width="1.6" height="1" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="40.400000000000006" y="0.6" width="1.2" height="0.6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M41.0 0.45L41.0 0.8" class="thin" />
+<rect x="42.85" y="2.1" width="0.3" height="1.8" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M43 2.1L44.8 2.1" class="thin" />
+<path d="M43 3.9000000000000004A1.8 1.8 0 0 0 44.8 2.1" class="thin" />
+<rect x="42.85" y="4.1" width="0.3" height="1.8" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M43 5.9L44.8 5.9" class="thin" />
+<path d="M43 4.1A1.8 1.8 0 0 1 44.8 5.9" class="thin" />
+<rect x="36.4" y="7.85" width="2.4" height="0.3" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M38.8 8L38.8 5.6" class="thin" />
+<path d="M36.4 8A2.4 2.4 0 0 1 38.8 5.6" class="thin" />
+<rect x="39.25" y="7.85" width="2.4" height="0.3" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M39.25 8L39.25 5.6" class="thin" />
+<path d="M41.65 8A2.4 2.4 0 0 0 39.25 5.6" class="thin" />
+<path d="M39 8L39.25 8" class="wall" />
+<path d="M39.25 7.86L39.25 8.14" class="wall" />
+<path d="M41.65 7.86L41.65 8.14" class="wall" />
+<rect x="39.6" y="15.7" width="6.5" height="5" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="44.85" y="15.95" width="1.05" height="2.1" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="44.85" y="18.349999999999998" width="1.05" height="2.1" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M44.65 15.7L44.65 20.7" class="thin" />
+<rect x="45.1" y="14.6" width="1" height="1" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="45.1" y="20.799999999999997" width="1" height="1" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="33.25" y="8.25" width="1.55" height="2.5" fill="#ece4d3" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M34.025 8.25L34.025 10.75" class="thin" />
+<rect x="44.8" y="8.5" width="1.3" height="6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="43.2" y="10.5" width="1.25" height="1.4" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="32.85" y="15.2" width="0.3" height="2.5" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M33 15.2L35.5 15.2" class="thin" />
+<path d="M33 17.7A2.5 2.5 0 0 0 35.5 15.2" class="thin" />
+<rect x="14" y="0" width="5" height="7" fill="#eceee2" stroke="#304b42" stroke-width="0.18" />
+<rect x="14.3" y="0.3" width="3.2" height="0.6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="14.3" y="3.4" width="0.6" height="3.2" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="14" y="7" width="5" height="7" fill="#e7efea" stroke="#304b42" stroke-width="0.18" />
+<g transform="rotate(90 17.85 8.25)">
+<rect x="17.25" y="7.4" width="1.2" height="0.4" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<ellipse cx="17.85" cy="8.4" rx=".6" ry=".7" fill="white" stroke="#7b8d80" stroke-width=".06" />
+</g>
+<g transform="translate(.9 0) rotate(90 16.5 10.35)">
+<path d="M16.5 9.05L16.5 9.55" class="thin" />
+<ellipse cx="16.5" cy="9.62" rx=".55" ry=".18" fill="#dbe7df" stroke="#788e81" stroke-width=".065" />
+<path d="M16.1 9.92l-0.24 .8" class="thin" stroke-dasharray=".12 .12" />
+<path d="M16.5 9.92l0.0 .8" class="thin" stroke-dasharray=".12 .12" />
+<path d="M16.9 9.92l0.24 .8" class="thin" stroke-dasharray=".12 .12" />
+<circle cx="16.5" cy="11.05" r=".17" class="thin" />
+</g>
+<g transform="rotate(90 17.95 13.1)">
+<rect x="17.15" y="12.6" width="1.6" height="1" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="17.349999999999998" y="12.75" width="1.2" height="0.6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M17.95 12.6L17.95 12.95" class="thin" />
+</g>
+<rect x="14.25" y="13.85" width="2.4" height="0.3" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M14.25 14L14.25 11.6" class="thin" />
+<path d="M16.65 14A2.4 2.4 0 0 0 14.25 11.6" class="thin" />
+<path d="M14 14L14.25 14" class="wall" />
+<path d="M14.25 13.86L14.25 14.14" class="wall" />
+<path d="M16.65 13.86L16.65 14.14" class="wall" />
+<rect x="19" y="0" width="14" height="14" fill="#f0eee1" stroke="#304b42" stroke-width="0.18" />
+<rect x="18.85" y="4" width="0.3" height="2.4" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M19 6.4L16.6 6.4" class="thin" />
+<path d="M19 4A2.4 2.4 0 0 0 16.6 6.4" class="thin" />
+<rect x="19.25" y="-0.15" width="3" height="0.3" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M19.25 0L19.25 3" class="thin" />
+<path d="M22.25 0A3 3 0 0 1 19.25 3" class="thin" />
+<rect x="19.19" y="-0.15" width="0.12" height="0.3" fill="#304b42" stroke="none" stroke-width="0.055" />
+<rect x="22.19" y="-0.15" width="0.12" height="0.3" fill="#304b42" stroke="none" stroke-width="0.055" />
+<rect x="22.55" y="0.4" width="10.05" height="2" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="30.6" y="2.4" width="2" height="8" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="29.1" y="0.7" width="3.2" height="1.4" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="29.3" y="0.95" width="1.25" height="0.9" fill="none" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="30.85" y="0.95" width="1.25" height="0.9" fill="none" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M30.7 0.72L30.7 1.15" class="thin" />
+<circle cx="23.6" cy="0.9" r=".26" class="thin" />
+<circle cx="23.6" cy="1.8" r=".26" class="thin" />
+<circle cx="24.5" cy="0.9" r=".26" class="thin" />
+<circle cx="24.5" cy="1.8" r=".26" class="thin" />
+<rect x="23" y="13.8" width="5" height="0.4" fill="#faf8ef" stroke="none" stroke-width="0.055" />
+<g transform="translate(19.4 13.6) rotate(-90)">
+<rect x="0" y="0" width="3.5" height="2.2" fill="#ece4d3" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M1.75 0L1.75 2.2" class="thin" />
+</g>
+<g transform="translate(32.6 10.6) rotate(90)">
+<rect x="0" y="0" width="3" height="2.3" fill="#e3e9e6" stroke="#647c70" stroke-width="0.075" />
+<path d="M1.5 0L1.5 2.3" class="thin" />
+<path d="M1.33 1.7L1.33 2.1" class="thin" />
+<path d="M1.67 1.7L1.67 2.1" class="thin" />
+</g>
+<path d="M19 14.5L23 14.5" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M28 14.5L33 14.5" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M19 14L19 14.85" class="thin" />
+<path d="M23 14L23 14.85" class="thin" />
+<path d="M28 14L28 14.85" class="thin" />
+<path d="M33 14L33 14.85" class="thin" />
+<g transform="translate(1 1)">
+<rect x="17" y="15.6" width="4.8" height="2.6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="17.5" y="14.9" width="1.2" height="0.6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="17.5" y="18.2" width="1.2" height="0.6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="19.8" y="14.9" width="1.2" height="0.6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="19.8" y="18.2" width="1.2" height="0.6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+</g>
+<g transform="translate(22 22.4)">
+<rect x="0" y="0" width="4" height="1.6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M0.1 0.2L3.9 0.2" class="thin" />
+<path d="M0.1 0.45L3.9 0.45" class="thin" />
+<path d="M0.1 0.7L3.9 0.7" class="thin" />
+<path d="M0.1 0.95L3.9 0.95" class="thin" />
+<path d="M0.1 1.2L3.9 1.2" class="thin" />
+<path d="M-0.2 -0.4L-0.2 2" class="thin" />
+<path d="M4.2 -0.4L4.2 2" class="thin" />
+</g>
+<g transform="translate(0 2)">
+<rect x="20.5" y="22" width="7" height="6" fill="#b9dce2" stroke="#668c90" stroke-width="0.1" />
+<rect x="20.8" y="22.3" width="6.4" height="5.4" fill="none" stroke="#8eafb2" stroke-width="0.05" />
+<path d="M14 23.5L20.5 23.5" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M27.5 23.5L33 23.5" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M24 12L24 22" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M21 28L21 36" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<rect x="14" y="26" width="6" height="10" fill="#faf8ef" stroke="none" stroke-width="0.055" />
+<path d="M14 26H17V33H20V36H14Z" fill="#ebece3" stroke="#304b42" stroke-width=".18" />
+<path d="M14.2 26.3L16.8 26.3" class="thin" />
+<path d="M14.2 27.150000000000002L16.8 27.150000000000002" class="thin" />
+<path d="M14.2 28.0L16.8 28.0" class="thin" />
+<path d="M14.2 28.85L16.8 28.85" class="thin" />
+<path d="M14.2 29.7L16.8 29.7" class="thin" />
+<path d="M14.2 30.55L16.8 30.55" class="thin" />
+<path d="M14.2 31.4L16.8 31.4" class="thin" />
+<path d="M14.2 32.25L16.8 32.25" class="thin" />
+<path d="M17.2 33.2L17.2 35.8" class="thin" />
+<path d="M18.05 33.2L18.05 35.8" class="thin" />
+<path d="M18.9 33.2L18.9 35.8" class="thin" />
+<path d="M14 33L17 33" class="thin" />
+<path d="M17 33L17 36" class="thin" />
+<path d="M19.2 34.5H15.5V27" class="thin" marker-end="url(#a)" />
+<rect x="19.85" y="33.2" width="0.3" height="2.5" fill="#faf8ef" stroke="none" stroke-width="0.055" />
+<rect x="13.85" y="23.2" width="0.3" height="2.5" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M14 23.2L11.5 23.2" class="thin" />
+<path d="M14 25.7A2.5 2.5 0 0 1 11.5 23.2" class="thin" />
+<g transform="translate(1 32) rotate(-90)">
+<rect x="0" y="0" width="6" height="2.5" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="0.18" y="0.4" width="1.88" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="2.06" y="0.4" width="1.88" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="3.94" y="0.4" width="1.88" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+</g>
+<g transform="translate(10.5 32) rotate(-90)">
+<rect x="0" y="0" width="6" height="2.5" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="0.18" y="0.4" width="1.88" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="2.06" y="0.4" width="1.88" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="3.94" y="0.4" width="1.88" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+</g>
+<rect x="3.5" y="32" width="7" height="2.5" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="3.68" y="32.4" width="2.2133333333333334" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="5.8933333333333335" y="32.4" width="2.2133333333333334" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="8.106666666666667" y="32.4" width="2.2133333333333334" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="1" y="32" width="2.5" height="2.5" fill="#ece4d3" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="10.5" y="32" width="2.5" height="2.5" fill="#ece4d3" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="1.2" y="32.2" width="2.1" height="2.1" fill="none" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="10.7" y="32.2" width="2.1" height="2.1" fill="none" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="6" y="28" width="2.4" height="3.2" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="5.3" y="17.8" width="3.3" height="0.55" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M0.1 19.25L13.9 19.25" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M0.45 17L0.45 36" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M13.6 25.7L13.6 36" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M13.3 25.7L14 25.7" class="thin" />
+<path d="M13.3 36L14 36" class="thin" />
+<rect x="28" y="31" width="5" height="5" fill="#eee4cf" stroke="#304b42" stroke-width="0.18" />
+<rect x="29.25" y="30.85" width="2.5" height="0.3" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M29.25 30.86L29.25 31.14" class="wall" />
+<path d="M31.75 30.86L31.75 31.14" class="wall" />
+<rect x="28.6" y="34.7" width="3.8" height="0.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="32.85" y="25.5" width="0.3" height="2.5" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M33 25.5L35.5 25.5" class="thin" />
+<path d="M33 28.0A2.5 2.5 0 0 0 35.5 25.5" class="thin" />
+<rect x="39" y="32.5" width="6.8" height="2.5" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="39.18" y="32.9" width="2.1466666666666665" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="41.32666666666667" y="32.9" width="2.1466666666666665" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="43.47333333333333" y="32.9" width="2.1466666666666665" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="43.5" y="27" width="2.3" height="5" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="38.5" y="28.5" width="3" height="2.4" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="22" y="35.85" width="2.2" height="0.3" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M22 36L22 33.8" class="thin" />
+<path d="M24.2 36A2.2 2.2 0 0 0 22 33.8" class="thin" />
+<rect x="24.2" y="35.85" width="2.2" height="0.3" fill="#fcfbf5" stroke="none" stroke-width="0.055" />
+<path d="M26.4 36L26.4 33.8" class="thin" />
+<path d="M24.2 36A2.2 2.2 0 0 1 26.4 33.8" class="thin" />
+<g transform="translate(16.3 37) rotate(90)">
+<rect x="0" y="0" width="4" height="1.6" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<path d="M0.1 0.2L3.9 0.2" class="thin" />
+<path d="M0.1 0.45L3.9 0.45" class="thin" />
+<path d="M0.1 0.7L3.9 0.7" class="thin" />
+<path d="M0.1 0.95L3.9 0.95" class="thin" />
+<path d="M0.1 1.2L3.9 1.2" class="thin" />
+<path d="M-0.2 -0.4L-0.2 2" class="thin" />
+<path d="M4.2 -0.4L4.2 2" class="thin" />
+</g>
+<rect x="26" y="37" width="6" height="2.5" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="26.18" y="37.4" width="1.88" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="28.06" y="37.4" width="1.88" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="29.939999999999998" y="37.4" width="1.88" height="1.9" fill="#fbf8ef" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="21" y="42.0" width="6" height="0.5" fill="#efede2" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="21" y="42.5" width="6" height="0.5" fill="#efede2" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="21" y="43.0" width="6" height="0.5" fill="#efede2" stroke="#7b8d80" stroke-width="0.055" />
+<rect x="21" y="43.5" width="6" height="0.5" fill="#efede2" stroke="#7b8d80" stroke-width="0.055" />
+</g>
+<rect x="2" y="-0.12" width="3" height="0.24" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="10" y="-0.12" width="2" height="0.24" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="25" y="-0.12" width="3" height="0.24" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="36" y="-0.12" width="3" height="0.24" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="42" y="-0.12" width="3" height="0.24" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="2" y="37.88" width="4" height="0.24" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="8" y="37.88" width="3" height="0.24" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="39" y="37.88" width="5" height="0.24" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="-0.12" y="2" width="0.24" height="2" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="-0.12" y="9" width="0.24" height="2" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="-0.12" y="23" width="0.24" height="3" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="-0.12" y="31" width="0.24" height="3" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="46.88" y="2" width="0.24" height="3" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="46.88" y="7" width="0.24" height="3" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="46.88" y="16" width="0.24" height="3" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="46.88" y="29" width="0.24" height="3" fill="#dbe9e5" stroke="#7b8d80" stroke-width="0.04" />
+<rect x="0" y="38" width="14" height="6" fill="none" stroke="#788e81" stroke-width=".07" stroke-dasharray=".3 .2" />
+<rect x="33" y="38" width="14" height="6" fill="none" stroke="#788e81" stroke-width=".07" stroke-dasharray=".3 .2" />
+<rect x="0.5" y="38" width="13" height="6" fill="#fbfaf5" stroke="#637671" stroke-width="0.09" />
+<rect x="2.5" y="38.4" width="2.4" height="5.2" fill="#dce8e8" stroke="#7b8d80" stroke-width="0.055" />
+<ellipse cx="10.9" cy="38.85" rx=".18" ry=".42" fill="#637671" />
+<ellipse cx="10.9" cy="43.15" rx=".18" ry=".42" fill="#637671" />
+<rect x="10.45" y="39.4" width="0.9" height="3.2" fill="#e3e1d5" stroke="#637671" stroke-width="0.06" />
+<rect x="10.58" y="40.3" width="0.64" height="1.6" fill="#9aab9b" stroke="#637671" stroke-width="0.04" />
+<path d="M10.9 38.85L10.9 39.4" class="thin" />
+<path d="M10.05 39.55L11.75 39.55" class="thin" />
+<rect x="33.5" y="38" width="13" height="6" fill="#fbfaf5" stroke="#637671" stroke-width="0.09" />
+<rect x="35.5" y="38.4" width="2.4" height="5.2" fill="#dce8e8" stroke="#7b8d80" stroke-width="0.055" />
+<ellipse cx="43.9" cy="38.85" rx=".18" ry=".42" fill="#637671" />
+<ellipse cx="43.9" cy="43.15" rx=".18" ry=".42" fill="#637671" />
+<rect x="43.45" y="39.4" width="0.9" height="3.2" fill="#e3e1d5" stroke="#637671" stroke-width="0.06" />
+<rect x="43.58" y="40.3" width="0.64" height="1.6" fill="#9aab9b" stroke="#637671" stroke-width="0.04" />
+<path d="M43.9 38.85L43.9 39.4" class="thin" />
+<path d="M43.05 39.55L44.75 39.55" class="thin" />
+<path d="M0 -0.5L0 -3.8" class="thin" />
+<path d="M14 -0.5L14 -3.8" class="thin" />
+<path d="M33 -0.5L33 -3.8" class="thin" />
+<path d="M47 -0.5L47 -3.8" class="thin" />
+<path d="M0 -3.6L47 -3.6" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M0 -1.8L14 -1.8" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M14 -1.8L33 -1.8" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M33 -1.8L47 -1.8" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M-2 0L-2 38" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<path d="M49 38L49 44" class="thin" marker-start="url(#a)" marker-end="url(#a)" />
+<g transform=""><text x="2" y="7.6" text-anchor="middle" font-size="0.34">SHOWER</text>
+</g><g transform=""><text x="6" y="3.4" text-anchor="middle" font-size="0.4">ATTACHED BATH</text>
+</g><g transform=""><text x="6" y="4.08" text-anchor="middle" font-size="0.4">8′ × 8′</text>
+</g><g transform=""><text x="6" y="4.8" text-anchor="middle" font-size="0.34">WASHBASIN</text>
+</g><g transform=""><text x="6" y="5.4799999999999995" text-anchor="middle" font-size="0.34">4′ × 8′</text>
+</g><g transform=""><text x="11" y="3.2" text-anchor="middle" font-size="0.43">CLOSET</text>
+</g><g transform=""><text x="11" y="3.8800000000000003" text-anchor="middle" font-size="0.43">6′ × 8′</text>
+</g><g transform=""><text x="12.9" y="11.35" text-anchor="middle" font-size="0.3">CABINET</text>
+</g><g transform=""><text x="10.4" y="12.1" text-anchor="middle" font-size="0.45">SMALL MASTER</text>
+</g><g transform=""><text x="10.4" y="12.78" text-anchor="middle" font-size="0.45">14′ × 11′</text>
+</g><g transform=""><text x="10.4" y="13.459999999999999" text-anchor="middle" font-size="0.45">154 sq ft</text>
+</g><g transform=""><text x="36" y="3.2" text-anchor="middle" font-size="0.43">CLOSET</text>
+</g><g transform=""><text x="36" y="3.8800000000000003" text-anchor="middle" font-size="0.43">6′ × 8′</text>
+</g><g transform=""><text x="45" y="7.6" text-anchor="middle" font-size="0.34">SHOWER</text>
+</g><g transform=""><text x="41" y="3.4" text-anchor="middle" font-size="0.4">ATTACHED BATH</text>
+</g><g transform=""><text x="41" y="4.08" text-anchor="middle" font-size="0.4">8′ × 8′</text>
+</g><g transform=""><text x="41" y="4.8" text-anchor="middle" font-size="0.34">WASHBASIN</text>
+</g><g transform=""><text x="41" y="5.4799999999999995" text-anchor="middle" font-size="0.34">4′ × 8′</text>
+</g><g transform=""><text x="34" y="11.35" text-anchor="middle" font-size="0.3">CABINET</text>
+</g><g transform=""><text x="41.5" y="9.4" text-anchor="middle" font-size="0.45">WORKSPACE</text>
+</g><g transform=""><text x="41.5" y="10.08" text-anchor="middle" font-size="0.45">6′ LONG</text>
+</g><g transform=""><text x="37.5" y="14.0" text-anchor="middle" font-size="0.48">LARGE MASTER</text>
+</g><g transform=""><text x="37.5" y="14.68" text-anchor="middle" font-size="0.48">14′ × 14′ · 196 sq ft</text>
+</g><g transform=""><text x="16.5" y="3.0" text-anchor="middle" font-size="0.5">STORE</text>
+</g><g transform=""><text x="16.5" y="3.68" text-anchor="middle" font-size="0.5">5′ × 7′</text>
+</g><g transform="translate(.9 0) rotate(90 16.5 10.35)"><text x="16.5" y="11.65" text-anchor="middle" font-size="0.34">SHOWER</text>
+</g><g transform=""><text x="15.6" y="7.8" text-anchor="middle" font-size="0.36">COMMON BATH</text>
+</g><g transform=""><text x="15.6" y="8.48" text-anchor="middle" font-size="0.36">5′ × 7′</text>
+</g><g transform=""><text x="26" y="7.0" text-anchor="middle" font-size="0.5">KITCHEN</text>
+</g><g transform=""><text x="26" y="7.68" text-anchor="middle" font-size="0.5">14′ × 14′</text>
+</g><g transform=""><text x="20.5" y="12.0" text-anchor="middle" font-size="0.35">CABINET</text>
+</g><g transform=""><text x="31.45" y="12.0" text-anchor="middle" font-size="0.38">FRIDGE</text>
+</g><g transform=""><rect x="20.5536" y="14.12" width="0.8928" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" x="21.0" y="14.5" dominant-baseline="middle" text-anchor="middle" font-size=".52">4′</text>
+</g><g transform=""><rect x="30.0536" y="14.12" width="0.8928" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" x="30.5" y="14.5" dominant-baseline="middle" text-anchor="middle" font-size=".52">5′</text>
+</g><g transform=""><text x="25.5" y="13.3" text-anchor="middle" font-size="0.4">5′ OPENING</text>
+</g><g transform=""><text x="20.4" y="20.2" text-anchor="middle" font-size="0.5">DINING</text>
+</g><g transform=""><text x="24" y="21.9" text-anchor="middle" font-size="0.45">SWING</text>
+</g><g transform="translate(0 2)"><text x="24" y="24.5" text-anchor="middle" font-size="0.5">TULSI</text>
+</g><g transform="translate(0 2)"><text x="24" y="25.18" text-anchor="middle" font-size="0.5">7′ × 6′</text>
+</g><g transform="translate(0 2)"><rect x="16.359" y="23.12" width="1.782" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" x="17.25" y="23.5" dominant-baseline="middle" text-anchor="middle" font-size=".52">6′ 6″</text>
+</g><g transform="translate(0 2)"><rect x="29.359" y="23.12" width="1.782" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" x="30.25" y="23.5" dominant-baseline="middle" text-anchor="middle" font-size=".52">5′ 6″</text>
+</g><g transform="translate(0 2) translate(24 17.0) rotate(-90)"><rect x="-2.2247999999999997" y="-0.38" width="4.449599999999999" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" dominant-baseline="middle" text-anchor="middle" font-size=".52">10′ TO KITCHEN</text>
+</g><g transform="translate(0 2) translate(21 32.0) rotate(-90)"><rect x="-2.5212" y="-0.38" width="5.0424" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" dominant-baseline="middle" text-anchor="middle" font-size=".52">8′ TO FRONT WALL</text>
+</g><g transform="translate(0 2)"><text x="15.5" y="35.4" text-anchor="middle" font-size="0.32">LANDING</text>
+</g><g transform="translate(0 2)"><text x="18.5" y="32.4" text-anchor="middle" font-size="0.34">L STAIRS</text>
+</g><g transform="translate(0 2)"><text x="18.5" y="33.08" text-anchor="middle" font-size="0.34">UP</text>
+</g><g transform="translate(0 2)"><text x="7" y="20.5" text-anchor="middle" font-size="0.5">MAIN LIVING</text>
+</g><g transform="translate(0 2)"><text x="7" y="21.18" text-anchor="middle" font-size="0.5">14′ × 19′</text>
+</g><g transform="translate(0 2)"><rect x="4.7752" y="18.87" width="4.449599999999999" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" x="7.0" y="19.25" dominant-baseline="middle" text-anchor="middle" font-size=".52">14′ ROOM WIDTH</text>
+</g><g transform="translate(0 2) translate(0.45 26.5) rotate(-90)"><rect x="-2.2247999999999997" y="-0.38" width="4.449599999999999" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" dominant-baseline="middle" text-anchor="middle" font-size=".52">19′ ROOM DEPTH</text>
+</g><g transform="translate(0 2) translate(13.6 30.85) rotate(-90)"><rect x="-2.8175999999999997" y="-0.38" width="5.635199999999999" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" dominant-baseline="middle" text-anchor="middle" font-size=".52">10.3′ DOOR TO WALL</text>
+</g><g transform="translate(0 2)"><text x="30.5" y="33.0" text-anchor="middle" font-size="0.4">POOJA</text>
+</g><g transform="translate(0 2)"><text x="30.5" y="33.68" text-anchor="middle" font-size="0.4">5′ × 5′</text>
+</g><g transform="translate(0 2)"><text x="40" y="23.0" text-anchor="middle" font-size="0.5">FAMILY ROOM</text>
+</g><g transform="translate(0 2)"><text x="40" y="23.68" text-anchor="middle" font-size="0.5">14′ × 16′</text>
+</g><g transform="translate(0 2)"><text x="39.5" y="24.6" text-anchor="middle" font-size="0.37">Pooja outside, near entrance</text>
+</g><g transform="translate(0 2)"><text x="25" y="30.4" text-anchor="middle" font-size="0.43">CENTRAL HALL</text>
+</g><g transform="translate(0 2)"><text x="25" y="31.08" text-anchor="middle" font-size="0.43">19′ SECTION WIDTH</text>
+</g><g transform="translate(0 2)"><text x="18.4" y="40.5" text-anchor="middle" font-size="0.4">SWING</text>
+</g><g transform="translate(0 2)"><text x="29" y="40.5" text-anchor="middle" font-size="0.4">COUCH</text>
+</g><g transform="translate(0 2)"><text x="23.5" y="41.3" text-anchor="middle" font-size="0.5">PORCH 19′ × 6′</text>
+</g><g transform="translate(0 2)"><text x="23.5" y="45.2" text-anchor="middle" font-size="0.6">SOUTH · FRONT</text>
+</g><g transform=""><text x="7.0" y="41.0" text-anchor="middle" font-size="0.32">CAR + BIKE</text>
+</g><g transform=""><text x="7.0" y="41.68" text-anchor="middle" font-size="0.32">UNDER GALLERY</text>
+</g><g transform=""><text x="40.0" y="41.0" text-anchor="middle" font-size="0.32">CAR + BIKE</text>
+</g><g transform=""><text x="40.0" y="41.68" text-anchor="middle" font-size="0.32">UNDER GALLERY</text>
+</g><g transform=""><rect x="21.127" y="-3.98" width="4.7459999999999996" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" x="23.5" y="-3.6" dominant-baseline="middle" text-anchor="middle" font-size=".52">TOTAL WIDTH 47′</text>
+</g><g transform=""><rect x="6.4054" y="-2.18" width="1.1892" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" x="7.0" y="-1.8" dominant-baseline="middle" text-anchor="middle" font-size=".52">14′</text>
+</g><g transform=""><rect x="22.9054" y="-2.18" width="1.1892" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" x="23.5" y="-1.8" dominant-baseline="middle" text-anchor="middle" font-size=".52">19′</text>
+</g><g transform=""><rect x="39.4054" y="-2.18" width="1.1892" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" x="40.0" y="-1.8" dominant-baseline="middle" text-anchor="middle" font-size=".52">14′</text>
+</g><g transform=""><text x="23.5" y="-0.45" text-anchor="middle" font-size="0.5">NORTH · REAR</text>
+</g><g transform="translate(-2 19.0) rotate(-90)"><rect x="-1.4837999999999998" y="-0.38" width="2.9675999999999996" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" dominant-baseline="middle" text-anchor="middle" font-size=".52">38′ HOUSE</text>
+</g><g transform="translate(49 41.0) rotate(-90)"><rect x="-1.3356" y="-0.38" width="2.6712" height=".76" rx=".1" fill="#fcfbf5" /><text class="dimension-label" dominant-baseline="middle" text-anchor="middle" font-size=".52">6′ PORCH</text>
+</g></svg>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Residence · Floor plan</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,sans-serif;background:#e5ebe7;color:#263d34}header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:15px 24px;background:#fff;border-bottom:1px solid #ced9d2}h1{font-size:20px;margin:0;font-weight:600}header p{margin:2px 0 0;color:#62766b;font-size:14px}nav{display:flex;align-items:center;gap:8px;flex-wrap:wrap}button,a{font:inherit;font-size:14px;border:1px solid #bdcdc3;border-radius:6px;background:white;color:#28513d;padding:8px 12px;text-decoration:none;cursor:pointer}button:hover,a:hover{background:#edf4ee}button:focus-visible,a:focus-visible{outline:3px solid #3b8660;outline-offset:2px}main{display:grid;grid-template-columns:minmax(0,1fr) 310px;height:calc(100vh - 88px)}#viewer{overflow:auto;padding:24px;text-align:center}#plan{display:block;width:100%;max-width:1050px;height:auto;margin:auto;background:#fcfbf5;box-shadow:0 8px 30px #22372b18}aside{background:#f8faf8;padding:24px;border-left:1px solid #ced9d2;overflow:auto}h2{font-size:16px;margin:0 0 12px}section.summary{padding-bottom:24px;margin-bottom:24px;border-bottom:1px solid #dce5de}dl{margin:0}dt{color:#61766a;font-size:14px;margin-top:14px}dd{margin:3px 0 0;font-weight:550}aside p{font-size:14px;color:#5d7063}.total{font-size:30px;letter-spacing:-1px;font-weight:650;margin:0;color:#234a35}.caption{font-size:14px;color:#61766a}table{border-collapse:collapse;width:100%;font-size:14px;margin-top:14px}th,td{text-align:left;padding:8px 0;border-bottom:1px solid #e2e8e3}th{font-weight:400}td{text-align:right;white-space:nowrap}#zoom{font-size:14px;min-width:42px;text-align:center}@media(max-width:850px){header{align-items:flex-start;flex-direction:column;padding:12px 16px}main{height:auto;display:block}#viewer{padding:10px;min-height:65vh}aside{border:0;padding:20px}nav{gap:6px}}@media print{header nav{display:none}main{display:block;height:auto}#viewer{padding:0;overflow:visible}#plan{width:100%!important;max-width:none!important;box-shadow:none}aside{page-break-before:always;overflow:visible}header{border:0}}
+
+#view{flex:0 0 116px;width:116px;white-space:nowrap}
+nav>a,nav>button{white-space:nowrap}
+/* Keep navigation fixed in the page layout; each content panel scrolls itself. */
+@media screen {
+ html,body{height:100%;overflow:hidden}
+ body{height:100dvh;display:flex;flex-direction:column}
+ header{flex:0 0 auto}
+ main{flex:1 1 0;min-height:0;height:auto;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) 310px}
+ #viewer{height:auto;min-height:0;min-width:0;overflow:auto;overscroll-behavior:contain}
+ aside{height:auto;min-height:0;min-width:0;overflow:auto;overscroll-behavior:contain}
+ #zoom{display:inline-flex;align-items:center;justify-content:center;min-width:48px;font-size:14px}
+ a[aria-current="page"]{background:#edf4ee;font-weight:600}
+ @media(max-width:850px){main{display:grid;grid-template-columns:minmax(0,1fr) 260px}#viewer{min-height:0}}
+ @media(max-width:600px){main{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,3fr) minmax(0,2fr)}aside{border-top:1px solid #ced9d2}}
+}
+@media print{html,body{height:auto;overflow:visible}main{height:auto;overflow:visible}aside,#viewer{height:auto;overflow:visible}}
+
+/* Identical header geometry on ground and first-floor pages. */
+@media screen {
+ header{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;padding:15px 24px;border-bottom:1px solid #ced9d2;background:#fff}
+ header>div{min-width:0;height:53px}
+ header h1{font-size:20px;font-weight:600;line-height:30px;margin:0}
+ header p{font-size:14px;line-height:21px;margin:2px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ header nav{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+ header nav>a,header nav>button{font:14px/21px system-ui,sans-serif;padding:8px 12px;min-height:39px;white-space:nowrap}
+ header nav>a:first-child{flex:0 0 140px;width:140px;text-align:center}
+ #view,#whole-plot{flex:0 0 116px;width:116px;text-align:center}
+ header #zoom{flex:0 0 48px;width:48px;min-width:48px;line-height:21px}
+ @media(max-width:1150px){header{grid-template-columns:minmax(0,1fr);padding:12px 16px}}
+}
+.floor-menu{position:relative}.floor-menu summary{list-style:none;color:#28513d;background:#fff;border:1px solid #bdcdc3;border-radius:6px;padding:8px 12px;font:14px/21px system-ui,sans-serif;cursor:pointer;white-space:nowrap}.floor-menu summary::-webkit-details-marker{display:none}.floor-menu summary::after{content:' ▾'}.floor-menu[open] summary{background:#edf4ee}.floor-menu div{position:absolute;z-index:5;top:calc(100% + 5px);left:0;min-width:145px;padding:6px;background:#fff;border:1px solid #bdcdc3;border-radius:6px;box-shadow:0 8px 18px #22372b22}.floor-menu div a{display:block;border:0;padding:7px 8px;border-radius:4px;white-space:nowrap}.floor-menu div a:hover{background:#edf4ee}
+.floor-menu div button{display:block;width:100%;border:0;padding:7px 8px;border-radius:4px;text-align:left;white-space:nowrap}.floor-menu div button:hover{background:#edf4ee}
+#viewer{position:relative}.view-floating{position:absolute;z-index:4;top:16px;right:16px;box-shadow:0 4px 14px #22372b2b}.floor-menu summary::after{font-size:1.35em!important;font-weight:700;vertical-align:-.04em}nav>a[href="index.html"]{min-width:112px;text-align:center}nav>a[href="upper-floor.html"]{min-width:104px;text-align:center}nav>a[href="terrace.html"]{min-width:112px;text-align:center}nav>a[href="exterior.html"]{min-width:142px;text-align:center}header nav{align-items:center}header #zoom{display:inline-flex;align-items:center;justify-content:center;flex:0 0 48px;width:48px;min-width:48px;height:39px;font:14px/21px system-ui,sans-serif;font-variant-numeric:tabular-nums}header #minus,header #plus{height:39px;min-width:39px}nav>a[href="exterior.html"]{min-width:90px}</style></head><body>
+<header><div><h1>Residence floor plan</h1><p>92′ × 66′ plot · 20′ left · 25′ right · 10′ rear · 18′ front</p></div><nav aria-label="Plan controls"><a href="index.html">Ground floor</a><a href="upper-floor.html">First floor</a><a href="terrace.html">Roof terrace</a><a href="exterior.html">Exterior</a><a href="interior.html">Interior</a><button id="minus" aria-label="Zoom out">−</button><span id="zoom" aria-live="polite">100%</span><button id="plus" aria-label="Zoom in">+</button><a id="download" href="downloads/dream-house.zip" download="dream-house.zip">Download</a></nav></header>
+<main><section id="viewer" tabindex="0" aria-label="Floor plan"><button id="view" class="view-floating">Whole plot</button><img id="plan" src="site.svg?v=59" alt="Residence plan: two bedrooms with 8 by 8 baths and 6 by 8 closets, 19-foot central section, dining and courtyard, pooja outside the family room, stairs left of entrance, porch swing and couch."></section><aside tabindex="0" aria-label="Plan details">
+<section class="summary"><h2>Plot area</h2><div class="total">6,072 <span style="font-size:17px;letter-spacing:0">sq ft</span></div><p>92′ × 66′. The 47′ × 38′ house has a 20′ left yard, a 25′ right yard, a 10′ rear yard and a 18′ front band. The 6′ porch is within the front band, leaving 12′ beyond its edge.</p><h2>Ground-floor covered area</h2><div class="total">2,026 <span style="font-size:17px;letter-spacing:0">sq ft</span></div><div class="caption">Covered footprint; upper-floor area counted separately</div><table aria-label="Area calculation"><tbody><tr><th>House · 47′ × 38′</th><td>1,786 sq ft</td></tr><tr><th>Tulsi courtyard · 7′ × 6′</th><td>−42 sq ft</td></tr><tr><th>Enclosed house</th><td>1,744 sq ft</td></tr><tr><th>Porch · 19′ × 6′</th><td>+114 sq ft</td></tr><tr><th>Front gallery extensions · 2 × 14′ × 6′</th><td>+168 sq ft</td></tr><tr><th><strong>Total footprint incl. courtyard</strong></th><td><strong>2,068 sq ft</strong></td></tr></tbody></table><p>Nominal plan areas. Covered footprint includes the open courtyard deduction, roofed porch, overhead front gallery extensions with parking beneath the gallery; it is not the combined floor area of both storeys. External steps are excluded.</p></section>
+<section class="summary"><h2>Bedroom space remaining</h2><dl><dt>Small bedroom</dt><dd>14′ × 11′ · 154 sq ft</dd><dt>Large bedroom</dt><dd>14′ × 14′ · 196 sq ft</dd></dl><p>Large bedroom includes the workspace.</p></section>
+<section class="summary"><h2>Room dimensions</h2><dl><dt>Both attached baths</dt><dd>8′ × 8′ each</dd><dt>Both closets</dt><dd>6′ × 8′ each</dd><dt>Main living / family room</dt><dd>14′ × 19′ / 14′ × 16′</dd><dt>Front porch</dt><dd>19′ × 6′</dd></dl></section>
+<h2>Kitchen entrance</h2><p>The 5′ entrance has 4′ of wall on the left and 5′ on the right. A joined double-basin sink is in the top-right kitchen corner. A cabinet occupies the bottom-left kitchen corner, with a refrigerator in the bottom-right corner.</p><h2>Main living dimensions</h2><p>Room: 14′ × 19′. The lower edge of its doorway is 10.3′ from the bottom wall.</p><h2>Tulsi dimensions</h2><p>Tulsi is 7′ × 6′. Its edges are 6′ 6″ from the left hall wall, 5′ 6″ from the right hall wall, 10′ from the kitchen edge and 8′ from the front house wall. These are wall-reference distances, not clear walking widths around furniture or stairs.</p><h2>Outdoor areas</h2><p>Each side of the porch shows one car and one bike under the gallery cover. The bike replaces the right-hand blue inset; the separate open bike spaces are removed. Total: two cars and two bikes. The separate side-yard carports are removed. The symbols illustrate the requested arrangement, not verified vehicle footprints within the 14′ × 6′ cover. Confirm actual vehicle dimensions and access before treating this as a parking bay. The lawn and badminton court remain in the side yards.</p><h2>Latest layout</h2><p>The kitchen’s outside door is at the far-left end of its rear wall and opens inward. Kitchen counters stop clear of the exit. The store’s lower shelf runs vertically along its left wall.</p><p>The right bedroom’s closet and attached bathroom are at the north/top end, with the workspace and bed below. Its entrance opens from the central hall, south of the kitchen.</p><p>Pooja room sits in the bottom-right corner of the central hall, beside the main entrance and outside the family room. L-shaped stairs are left of the main entrance, with the main living room door beyond them.</p><p>Toilet and shower are stacked against each bathroom’s outer wall, with partitions and a separate washbasin area. Bathroom and closet entrance doors swing inward. Toilet and shower doors sit near their shared partition; shower doors open inward with reversed hinges.</p><p>Concept plan. Wall thickness, clearances and stair rise/run require detailing; these are not final construction drawings.</p>
+</aside></main><script>
+let scale=1;
+const plan=document.getElementById('plan');
+// View mode is shared across floors; the page URL independently selects the floor.
+const viewPreferenceKey='residence-floor-plan.view';
+let siteView=true;
+try { siteView=localStorage.getItem(viewPreferenceKey)!=='house'; } catch {}
+function render(){
+  plan.style.width=(scale*100)+'%';
+  plan.style.maxWidth=(scale*1050)+'px';
+  document.getElementById('zoom').textContent=Math.round(scale*100)+'%';
+}
+function renderView(){
+  plan.src=siteView?'site.svg?v=57':'plan.svg?v=58';
+  document.getElementById('view').textContent=siteView?'House detail':'Whole plot';
+  const link=document.getElementById('download');
+  
+  
+  scale=1;
+  render();
+}
+document.getElementById('plus').onclick=()=>{scale=Math.min(3,scale+.25);render()};
+document.getElementById('minus').onclick=()=>{scale=Math.max(.5,scale-.25);render()};
+
+
+document.getElementById('view').onclick=()=>{
+  siteView=!siteView;
+  try { localStorage.setItem(viewPreferenceKey,siteView?'site':'house'); } catch {}
+  renderView();
+};
+renderView();
+document.addEventListener("click",event=>{const menu=document.querySelector(".floor-menu");if(menu&&menu.open&&!menu.contains(event.target))menu.open=false});
+</script></body></html>

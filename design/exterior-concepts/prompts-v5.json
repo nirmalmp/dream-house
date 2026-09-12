@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Edit only the center FIRST-FLOOR balcony window directly above mainentrance. Enlarge it to FULL HEIGHT from balconyfloor to same topheight as adjacentbedroomglazing, generouslywide about6ft,three tall darkteakframedglasspanels with creamcurtains. Removeplastersillbelow existingwindow so glass reachesfloor. Preservewallsonbothsides, balconyrailinfront, columns,roofs,parking,camera,light andallotherdetails. Thisisfullsizewindowbehindrail,notopenatrium.",
+  "images": [
+    {
+      "id": "front"
+    },
+    {
+      "id": "front-left"
+    },
+    {
+      "id": "front-right"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>First-floor plan</title><style>
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,sans-serif;background:#e5ebe7;color:#263d34}header{padding:18px 24px;background:white;display:flex;align-items:center;justify-content:space-between;gap:20px}h1{margin:0;font-size:22px}header p{margin:2px 0;color:#62766b;font-size:14px}a,button{color:#28513d;background:white;border:1px solid #bdcdc3;padding:9px 13px;border-radius:6px;font:inherit;font-size:14px;text-decoration:none;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #3b8660;outline-offset:2px}nav{display:flex;gap:8px;flex-wrap:wrap}.options{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:16px 24px;background:#f6f8f5}.option{text-align:left;padding:14px 16px}.option strong{display:block;font-size:16px}.option span{display:block;margin-top:5px;color:#61766a}.option[aria-pressed=true]{border:2px solid #38664c;background:#eaf2e7;padding:13px 15px}main{display:grid;grid-template-columns:minmax(0,1fr) 320px}#viewer{padding:24px;overflow:auto;height:calc(100vh - 96px)}img{display:block;width:100%;max-width:1050px;margin:auto;background:#fcfbf5;box-shadow:0 8px 30px #22372b18}aside{padding:24px;background:#f8faf8}h2{font-size:18px;margin:0 0 10px}h3{font-size:15px;margin-top:24px}aside p,aside li{font-size:14px;color:#5d7063}ul{padding-left:20px}table{border-collapse:collapse;width:100%;font-size:14px}td{padding:8px 0;border-bottom:1px solid #dce5de}td:last-child{text-align:right}.tools{display:flex;gap:8px;margin:16px 0}@media(max-width:850px){header{align-items:flex-start;flex-direction:column}.options{padding:12px;gap:7px}.option{padding:10px}.option strong{font-size:14px}.option span{font-size:13px}.option[aria-pressed=true]{padding:9px}main{display:block}#viewer{height:auto;padding:10px}aside{padding:20px}}@media print{header nav,.options,.tools{display:none}#viewer{height:auto;overflow:visible}main{display:block}img{width:100%!important;box-shadow:none}aside{page-break-before:always}}
+
+/* Keep navigation fixed in the page layout; each content panel scrolls itself. */
+@media screen {
+ html,body{height:100%;overflow:hidden}
+ body{height:100dvh;display:flex;flex-direction:column}
+ header{flex:0 0 auto}
+ main{flex:1 1 0;min-height:0;height:auto;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) 310px}
+ #viewer{height:auto;min-height:0;min-width:0;overflow:auto;overscroll-behavior:contain}
+ aside{height:auto;min-height:0;min-width:0;overflow:auto;overscroll-behavior:contain}
+ #zoom{display:inline-flex;align-items:center;justify-content:center;min-width:48px;font-size:14px}
+ a[aria-current="page"]{background:#edf4ee;font-weight:600}
+ @media(max-width:850px){main{display:grid;grid-template-columns:minmax(0,1fr) 260px}#viewer{min-height:0}}
+ @media(max-width:600px){main{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,3fr) minmax(0,2fr)}aside{border-top:1px solid #ced9d2}}
+}
+@media print{html,body{height:auto;overflow:visible}main{height:auto;overflow:visible}aside,#viewer{height:auto;overflow:visible}}
+
+/* Identical header geometry on ground and first-floor pages. */
+@media screen {
+ header{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;padding:15px 24px;border-bottom:1px solid #ced9d2;background:#fff}
+ header>div{min-width:0;height:53px}
+ header h1{font-size:20px;font-weight:600;line-height:30px;margin:0}
+ header p{font-size:14px;line-height:21px;margin:2px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ header nav{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+ header nav>a,header nav>button{font:14px/21px system-ui,sans-serif;padding:8px 12px;min-height:39px;white-space:nowrap}
+ header nav>a:first-child{flex:0 0 140px;width:140px;text-align:center}
+ #view,#whole-plot{flex:0 0 116px;width:116px;text-align:center}
+ header #zoom{flex:0 0 48px;width:48px;min-width:48px;line-height:21px}
+ @media(max-width:1150px){header{grid-template-columns:minmax(0,1fr);padding:12px 16px}}
+}
+.floor-menu{position:relative}.floor-menu summary{list-style:none;color:#28513d;background:#fff;border:1px solid #bdcdc3;border-radius:6px;padding:8px 12px;font:14px/21px system-ui,sans-serif;cursor:pointer;white-space:nowrap}.floor-menu summary::-webkit-details-marker{display:none}.floor-menu summary::after{content:' ▾'}.floor-menu[open] summary{background:#edf4ee}.floor-menu div{position:absolute;z-index:5;top:calc(100% + 5px);left:0;min-width:145px;padding:6px;background:#fff;border:1px solid #bdcdc3;border-radius:6px;box-shadow:0 8px 18px #22372b22}.floor-menu div a{display:block;border:0;padding:7px 8px;border-radius:4px;white-space:nowrap}.floor-menu div a:hover{background:#edf4ee}
+.floor-menu div button{display:block;width:100%;border:0;padding:7px 8px;border-radius:4px;text-align:left;white-space:nowrap}.floor-menu div button:hover{background:#edf4ee}
+#viewer{position:relative}.view-floating{position:absolute;z-index:4;top:16px;right:16px;box-shadow:0 4px 14px #22372b2b}.floor-menu summary::after{font-size:1.35em!important;font-weight:700;vertical-align:-.04em}nav>a[href="index.html"]{min-width:112px;text-align:center}nav>a[href="upper-floor.html"]{min-width:104px;text-align:center}nav>a[href="terrace.html"]{min-width:112px;text-align:center}nav>a[href="exterior.html"]{min-width:142px;text-align:center}header nav{align-items:center}header #zoom{display:inline-flex;align-items:center;justify-content:center;flex:0 0 48px;width:48px;min-width:48px;height:39px;font:14px/21px system-ui,sans-serif;font-variant-numeric:tabular-nums}header #minus,header #plus{height:39px;min-width:39px}nav>a[href="exterior.html"]{min-width:90px}</style></head><body>
+<header><div><h1>First-floor plan</h1><p>47′ × 38′ main footprint · Staircase and Tulsi opening aligned below</p></div><nav aria-label="Plan controls"><a href="index.html">Ground floor</a><a href="upper-floor.html">First floor</a><a href="terrace.html">Roof terrace</a><a href="exterior.html">Exterior</a><a href="interior.html">Interior</a><button id="minus" aria-label="Zoom out">−</button><span id="zoom" aria-live="polite">100%</span><button id="plus" aria-label="Zoom in">+</button><a id="download" href="downloads/dream-house.zip" download="dream-house.zip">Download</a></nav></header>
+<main><section id="viewer" tabindex="0" aria-label="First-floor plan"><button id="whole-plot" class="view-floating">Whole plot</button><img id="plan" src="upper-family.svg?v=34" alt="Two-bedroom first floor with covered front balconies, front-facing side bedrooms with bathrooms and closets directly behind them and an open Tulsi void."></section><aside tabindex="0" aria-label="Plan details"><h2>Two-bedroom first floor</h2><p>Two bedrooms with covered front balconies and a long open center terrace. The side bedrooms are restored to 14′ × 14′ and shifted forward to meet the front balconies. Their bathrooms and closets move down into the former private-gallery space and open directly into the bedrooms, retaining their inward door swings. The center master bedroom remains above the kitchen area.</p><table><tbody><tr><td>Bedrooms</td><td>2</td></tr><tr><td>Attached bathrooms</td><td>2 · 8′ × 8′ each</td></tr><tr><td>Side-bedroom closets</td><td>6′ × 8′ each</td></tr><tr><td>Center open terrace</td><td>19′ × 14′ · 266 sq ft</td></tr><tr><td>Left bedroom</td><td>14′ × 14′ · 196 sq ft</td></tr><tr><td>Right bedroom</td><td>14′ × 14′ · 196 sq ft</td></tr><tr><td>Side roof terraces</td><td>2 × 14′ × 14′</td></tr><tr><td>Covered front balconies</td><td>14′ × 14′ each</td></tr><tr><td>Gallery over porch</td><td>19′ × 6′</td></tr><tr><td>Tulsi opening below</td><td>7′ × 6′</td></tr></tbody></table><h3>Stair access</h3><p>The L-shaped stairwell at the front-left of the central hall is stacked directly above the ground-floor stairs. It serves both down to the ground floor and up to the roof. Both levels share the same 6′ × 10′ bounding footprint and turn position. The separate staircase in the center gallery has been removed.</p><h3>Front bedrooms and gallery</h3><p>The double-height opening is removed. Both side bedrooms sit toward the front, with their bathrooms and closets immediately behind them. The private galleries are removed; the left rear terrace and adjoining gallery remain connected without a partition. Only the 8′ × 6′ gallery is covered; the 14′ × 8′ terrace stays open to the sky. The former right rear closet is removed and is now a 14′ × 14′ open roof terrace. The relocated bathrooms no longer sit directly above the ground-floor bathrooms, so plumbing routes need updating. Covered side balconies extend 6′ forward and connect across a 19′ × 6′ gallery above the ground-floor porch. The front galleries have roofs and open sides.</p><p>Each side of the porch shows one car and one bike below the gallery. The separate open bike spaces are removed. Total: two cars and two bikes. The separate side-yard carports are removed. Parking symbols are illustrative; actual vehicle, door and maneuvering clearances within the 14′ × 6′ covers need checking.</p><h3>Central spaces</h3><p>The 14′ × 8′ open rear terrace connects to the 8′ × 6′ covered gallery without a partition. A dashed line marks the roof edge, not a wall. The gallery opens to the center master bedroom. The center bathroom is entered from the bedroom through an inward-opening door near the top of its right wall. The bathroom basin is at the bottom, and the bed’s headboard is against the top wall with a 6′ workspace to its right. The rear-right closet’s left wall aligns with the bathroom below. Its size is 8′ × 8′, and the freed 6′ × 8′ space joins the center bedroom and contains its workspace. The closet is accessible from that bedroom; the standalone bedroom wardrobe is removed.</p><p>The porch remains an entrance below the new center gallery. The gallery provides the cover for parking below.</p><p>Concept plan. Supporting beams, the gallery over the porch, balcony roofs, guardrails, and stair headroom require structural detailing.</p></aside></main>
+<script>
+const plan=document.getElementById('plan');
+let scale=1;
+// View mode is shared across floors; the page URL independently selects the floor.
+let siteView=true;
+const viewPreferenceKey='residence-floor-plan.view';
+try{siteView=localStorage.getItem(viewPreferenceKey)!=='house'}catch{}
+function renderView(){
+ plan.src=siteView?'upper-site.svg?v=21':'upper-family.svg?v=34';
+ document.getElementById('whole-plot').textContent=siteView?'House detail':'Whole plot';
+ const download=document.getElementById('download');
+ 
+ 
+ scale=1;render();
+}
+function render(){plan.style.width=(scale*100)+'%';plan.style.maxWidth=(scale*1050)+'px';document.getElementById('zoom').textContent=Math.round(scale*100)+'%'}
+
+document.getElementById('plus').onclick=()=>{scale=Math.min(3,scale+.25);render()};
+document.getElementById('minus').onclick=()=>{scale=Math.max(.5,scale-.25);render()};
+document.getElementById('whole-plot').onclick=()=>{siteView=!siteView;try{localStorage.setItem(viewPreferenceKey,siteView?'site':'house')}catch{}renderView()};
+
+renderView();
+document.addEventListener("click",event=>{const menu=document.querySelector(".floor-menu");if(menu&&menu.open&&!menu.contains(event.target))menu.open=false});
+</script></body></html>
